@@ -7,7 +7,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-html{
+html,body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -515,7 +519,7 @@ section .title::after{
 }
 .contact .button{
     height: 36px;
-    width: 547px;
+    width: 100%;
     margin-top: 10px;
 }
 

@@ -42,9 +42,18 @@ section{
 #project{
     background:#fff;
 }
+#project .title{
+    color:#111;
+}
+#project .title::after {
+  background: #fff;
+}
 #contact{
     background:#111;
     color:#fff
+}
+#contact .title::after {
+    background: transparent;
 }
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;

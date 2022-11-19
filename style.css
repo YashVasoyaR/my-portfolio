@@ -447,6 +447,7 @@ section .title::after{
 }
 .teams .carousel .card{
     background: #222;
+    min-height: 325px;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -538,6 +539,7 @@ section .title::after{
     color: crimson;
 }
 .contact .contact-content .info .head{
+    display: block;
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
